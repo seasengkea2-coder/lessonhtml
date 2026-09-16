@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            border: 2px solid red;
+            width: 700px;
+        }
+        .container .header{
+            background-color: blue;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        .main .maincontent{
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            height: 30px;
+        }
+        .main .sidebar{
+            background-color:red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            height: 30px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">header</div>
+
+        <div class="main">
+            <div class="maincontent">main content</div>
+            <div class="sidebar">sidebar</div>
+        </div>
+
+        <div class="twin">
+            <div class="twin1">twin1</div>
+            <div class="twin2">twin2</div>
+        </div>
+
+        <footer>footer</footer>
+    </div>
+</body>
+</html>
